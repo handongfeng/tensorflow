@@ -1,0 +1,5 @@
+1. how to use tf.nn.softmax_cross_entropy_with_logits.
+http://blog.csdn.net/mao_xiao_feng/article/details/53382790
+tf.nn.softmax_cross_entropy_with_logits(logits, labels, name=None). The first parameter is logits with size [batch_size, num_class]. The second params is the ground truth label same size with logits.
+Details:
+step1: compute the 
